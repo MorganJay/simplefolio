@@ -1,11 +1,13 @@
 import initTilt from "./tilt";
 import initSr from "./sr";
-import { addResume } from "./utils";
-import resume from "../assets/JAMES_MORGAN_CV_09_09_2021.pdf";
+import { addResume, setCurrentYearCopy } from "./utils";
+import resume from "../assets/JAMES_MORGAN_CV_03_01_2022.pdf";
 
 export default function initApp() {
   initSr();
   initTilt();
+  setCurrentYearCopy();
   // comment this if you don't want to attach your resume
   addResume(resume);
+  console.log(data);
 }
