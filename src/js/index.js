@@ -1,7 +1,7 @@
 import initTilt from "./tilt";
 import initSr from "./sr";
 import { addResume, setCurrentYearCopy } from "./utils";
-import resume from "../assets/JAMES_MORGAN_CV_03_01_2022.pdf";
+import resume from "../assets/JAMES_MORGAN_CV.pdf";
 
 export default function initApp() {
   initSr();
